@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+
+    <!-- Customize your theme here. -->
+    <style name="PatternView">
+        <item name="aspect">square</item>
+    </style>
+
+
+    <!--RegisterActivity Style-->
+    <style name="Register_activity_style" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">#008080</item>
+        <item name="background">@color/teal</item>
+
+
+    </style>
+
+
+
+
+
+    <style name="PatternView.Holo">#
+        <item name="regularColor">@android:color/black</item>
+        <item name="errorColor">@android:color/holo_red_light</item>
+        <item name="successColor">@android:color/black</item>
+        <item name="pathColor">@android:color/black</item>
+        <item name="dotDrawableDefault">@drawable/pl_patternview_dot_default</item>
+        <item name="dotDrawableTouched">@drawable/pl_patternview_dot_touched</item>
+        <item name="circleDrawableDefault">@drawable/pl_patternview_circle_default_alpha</item>
+        <item name="circleDrawable">@drawable/pl_patternview_circle_alpha</item>
+        <item name="arrowUpDrawable">@drawable/pl_patternview_arrow_alpha</item>
+    </style>
+
+    <style name="PatternView.Holo.Light">
+        <item name="regularColor">@android:color/holo_blue_dark</item>
+        <item name="successColor">@android:color/holo_blue_dark</item>
+        <item name="pathColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="patternViewStyle">@style/PatternView.Holo</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="patternViewStyle">@style/PatternView.Holo.Light</item>
+    </style>
+</resources>

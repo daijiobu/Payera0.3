@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sumyiren.combinedt1pay.Insertmoney">
+
+    <TextView android:text="Insert:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/insertmoney"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal" />
+
+    <Button android:id="@+id/sendinsertmoney"
+        android:layout_below="@id/insertmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Money"
+        android:onClick="sendinsertmoney"/>
+
+</RelativeLayout>
